@@ -300,7 +300,110 @@ nav ul li a:active {
 #mobileNav {
     display: none;
 }
+@media screen and (max-width: 500px) {
+  .line{
+    margin-left: 20px;
+    width: 23%;
+  }
+  #tweet1{
+    font-size: 15px;
+  }
 
+  .title {
+    padding-left: 20px;
+  }
+
+  .bottomPage .rightText{
+    width:auto;
+  }
+
+  nav {
+    height: 100px;
+    width: 100%;
+  }
+  .banner {
+    height: 200px;
+    margin-top: 100px;
+  }
+
+  .bannerImage {
+    width: 150%
+  }
+
+  #content {
+    margin-left: 0;
+    margin-top: 225px;
+    width: 100%;
+  }
+  #logoContainer {
+    height: 100px;
+    margin-left: 30%;
+    margin-top: 0;
+    position: absolute;
+    width: 100%;
+  }
+  #logo {
+    height: 100px;
+    padding-top: 0;
+    width: auto;
+  }
+  nav ul {
+    display: none;
+  }
+
+  .banner-Dots {
+      margin-left: 40%;
+  }
+
+  .bannerImage {
+    margin-left: -25%;
+  }
+
+  .imagesContainer {
+    height: 170px;
+    width: 95%;
+  }
+
+  .leftTest, .rightText {
+    width: 80%;
+  }
+  #mobileNav {
+    display: block;
+    float: left;
+    margin-left: 35%;
+    margin-top: 0;
+    position: absolute;
+  }
+  #mobileNav:hover {
+    cursor: pointer;
+  }
+  #mobNavIcon {
+    margin-left: 20%;
+    margin-top: 20px;
+    width: 15%;
+  }
+
+  #mobileIcon{
+    height: 80px;
+    width: 60px;
+  }
+
+  .topText {
+    margin: 80px auto auto auto;
+    padding-bottom: 10px;
+    width: 80%;
+    word-wrap: break-word;
+  }
+
+  #mobileNav li ul {
+      background-color: #000;
+      color: #fff;
+      margin-left: 35%;
+      margin-top: 0;
+      padding: 10px;
+      width: 80px;
+  }
+}
 @media all and (max-width: 500px) {
   .line{
     margin-left: 20px;
