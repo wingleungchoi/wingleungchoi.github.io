@@ -1,0 +1,540 @@
+body {
+  background: none repeat scroll 0 0  #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #141414;
+  float: left;
+  font-family: Helvetica, Georgia, sans-serif;
+  height: 100%;
+  margin: 0;
+  position: fixed;
+  width: 12%;
+  z-index: 100;
+}
+
+#logoContainer {
+  height: auto;
+  margin-left: 5%;
+  margin-right: 20px;
+  width: 90%;
+}
+
+#logo {
+  padding-top:30px;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-top: 50px; 
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+nav ul li {
+  color: #fff;
+  font-family: Helvetica, Georgia, sans-serif;
+  margin-bottom: 15px;
+}
+
+nav ul li a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid;
+  color: #fff;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+nav ul li a:active {
+  border-bottom: 2px solid;
+  color: #fff;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+.banner {
+  background: none repeat scroll 0 0 #f7f7f7;
+  display: inline-block;
+  height: 300px;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+
+.banner > img {
+  left: 0;
+  position: absolute;
+  top:0;
+}
+
+.bannerImage {
+  width: 111%;
+  margin-top: -100px;
+}
+
+#bannerImage1 {
+  cursor: default;
+  z-index: 3;
+}
+
+#bannerImage2 {
+  cursor: default;
+  z-index: 2;
+}
+
+#bannerImage3 {
+  cursor: default;
+  z-index: 1;
+}
+
+.bannerDots {
+  margin-left: 46%;
+  margin-top: 20px;
+  position: absolute;
+  width: 50%;
+}
+#dot1{
+  cursor: pointer;
+  float: left;
+}
+
+#dot2{
+  cursor: pointer;
+  float: left;
+}
+
+#dot3{
+  cursor: pointer;
+  float: left;
+}
+
+#content {
+  background: linear-gradient(to bottom, #f7f7f7 0%, #d4d8d8 98%) repeat scroll 0 0 rgba(0,0,0,0);
+  height: auto;
+  margin-left: 12%;
+  margin-top: 300px;
+  outline: 6px solid rgba(0,0,0,0.4);
+  padding-bottom: 60px;
+  position: absolute;
+  width: 88%;
+  z-index: 50;
+}
+
+.topText {
+  margin-left: 25%;
+  margin-top: 80px;
+  padding-bottom: 10px;
+  width: 50%;
+}
+
+.topText h1 {
+  font-family: Helvetica, Georgia, sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+.imagesContainer {
+  background-color: #111111;
+  float: left;
+  height: 200px;
+  margin-left: 20px;
+  margin-top: 20px;
+  overflow: hidden;
+  width:30%;
+}
+
+.image {
+  width: 130%;
+}
+
+.imageTitle {
+  background-color: #efefef;
+  color: #333;
+  float: right;
+  font-size: 18px;
+  height: 80%;
+  position: relative;
+  text-align: center;
+  transition: margin-top 0.5s ease 0s;
+  width: 90%;
+}
+
+.imagesContainer:hover > .imageTitle{
+  margin-top: -140px;
+}
+
+.imageTitle:hover{
+  margin-top: -140px;
+}
+
+.tint:hover{
+  cursor: pointer;
+  opacity: 0.5;
+  width: 110%;
+}
+
+.tint {
+  transition: width 2s ease 0s, opacity 2s ease 0s;
+}
+
+#latestWork {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  width: 90%;
+}
+
+.bottomPage {
+  margin: 70px auto auto;
+  max-width: 1000px;
+  overflow: none;
+  width: 90%
+}
+
+.bottomText {
+  float: left;
+  width: 100%;
+}
+
+.bottomPage .rightText {
+  margin-right: 20px;
+  text-align: right;
+}
+
+#socialFeed {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  width: 90%;
+}
+
+.title {
+  color: #666;
+  float:left;
+  font-size: 22px;
+  margin-top: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 30%;
+}
+
+.line {
+  border-top: 2px solid #666;
+  float: left;
+  margin-left: 20px;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  width: 31%;
+}
+
+.longline {
+  border-top: 2px solid #666;
+  float: left;
+  margin-left: 20px;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.rightText {
+    float: right;
+    font-size: 18px;
+    margin-left: 20px;
+    width: 45%;
+}
+
+.leftText {
+    float: left;
+    font-size: 18px;
+    margin-left: 20px;
+    width: 45%;
+}
+
+#tweetContainer {
+  background-color: #231f20;
+}
+
+#tweet1 {
+    background-color: #231f20;
+    color: #fff;
+    float: left;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    word-wrap: break-word;
+}
+
+.instaImage{
+  width: 110%;
+  overflow: none;
+  margin-top: -10px;
+}
+
+#logo2 {
+    float: left;
+    margin-left: 20px;
+    width: 150px;
+}
+
+#mobileNav {
+    display: none;
+}
+
+@media all and (max-width: 500px) {
+  .line{
+    margin-left: 20px;
+    width: 23%;
+  }
+  #tweet1{
+    font-size: 15px;
+  }
+
+  .title {
+    padding-left: 20px;
+  }
+
+  .bottomPage .rightText{
+    width:auto;
+  }
+
+  nav {
+    height: 100px;
+    width: 100%;
+  }
+  .banner {
+    height: 200px;
+    margin-top: 100px;
+  }
+
+  .bannerImage {
+    width: 150%
+  }
+
+  #content {
+    margin-left: 0;
+    margin-top: 225px;
+    width: 100%;
+  }
+  #logoContainer {
+    height: 100px;
+    margin-left: 30%;
+    margin-top: 0;
+    position: absolute;
+    width: 100%;
+  }
+  #logo {
+    height: 100px;
+    padding-top: 0;
+    width: auto;
+  }
+  nav ul {
+    display: none;
+  }
+
+  .banner-Dots {
+      margin-left: 40%;
+  }
+
+  .bannerImage {
+    margin-left: -25%;
+  }
+
+  .imagesContainer {
+    height: 170px;
+    width: 95%;
+  }
+
+  .leftTest, .rightText {
+    width: 80%;
+  }
+  #mobileNav {
+    display: block;
+    float: left;
+    margin-left: 35%;
+    margin-top: 0;
+    position: absolute;
+  }
+  #mobileNav:hover {
+    cursor: pointer;
+  }
+  #mobNavIcon {
+    margin-left: 20%;
+    margin-top: 20px;
+    width: 15%;
+  }
+
+  #mobileIcon{
+    height: 80px;
+    width: 60px;
+  }
+
+  .topText {
+    margin: 80px auto auto auto;
+    padding-bottom: 10px;
+    width: 80%;
+    word-wrap: break-word;
+  }
+
+  #mobileNav li ul {
+      background-color: #000;
+      color: #fff;
+      margin-left: 35%;
+      margin-top: 0;
+      padding: 10px;
+      width: 80px;
+  }
+}
+
+@media all and (min-width: 501px) and (max-width: 710px) {
+  nav {
+      height: 100px;
+      width: 100%;
+  }
+  .banner {
+      height: 200px;
+      margin-top: 50px;
+  }
+  .bannerImage {
+      width: 150%;
+  }
+  #content {
+      margin-left: 0;
+      margin-top: 250px;
+      width: 100%;
+  }
+  #logoContainer {
+      height: 100px;
+      margin-left: 30%;
+      margin-top: 0;
+      position: absolute;
+      width: 100%;
+  }
+  #logo {
+      height: 100px;
+      width: auto;
+      padding-top: 0;
+  }
+  nav ul {
+      display: none;
+  }
+  .bannerDots {
+      margin-left: 44%;
+  }
+  .bannerImage {
+      margin-left: -25%;
+  }
+  #twitterNavIcon {
+      display: none;
+  }
+  .imagesContainer {
+      height: 250px;
+      width: 95%;
+  }
+
+  .line {
+      width: 30%;
+  }
+  #tweet1 {
+      font-size: 24px;
+  }
+
+  .leftText, .rightText {
+      width: auto;
+  }
+
+  #mobileNav {
+      display: block;
+      float: left;
+      margin-left: 35%;
+      margin-top: 0;
+      position: absolute;
+  }
+  #mobileNav a:hover {
+      border-bottom: medium none;
+  }
+  #mobileNav a:active {
+      border-bottom: medium none;
+  }
+  #mobNavIcon {
+      margin-left: 58%;
+      margin-top: 20px;
+      width: 100px;
+  }
+  #mobileNav li ul {
+      background-color: #000;
+      color: #fff;
+      margin-left: 35%;
+      margin-top: 0;
+      padding: 10px;
+      width: 80px;
+  }
+
+  .topText {
+      margin: 80px auto auto;
+      padding-bottom: 10px;
+      width: 70%;
+  }
+
+  #mobileIcon{
+    height: 80px;
+    width: 60px;
+  }  
+}
+
+@media all and (min-width: 711px) and (max-width: 1040px) {
+.banner {
+    height: 250px;
+}
+.bannerImage {
+    width: 111%;
+}
+#content {
+    margin-top: 250px;
+}
+
+.imagesContainer {
+    height: 200px;
+    width: 45%;
+}
+#aboutImage {
+    margin-top: 40px;
+    width: 100%;
+}
+#aboutContainer .rightText {
+    float: left;
+    width: 95%;
+}
+#contactContainer .leftText {
+    float: left;
+    width: 95%;
+}
+#contactContainer .rightText {
+    float: none;
+    width: 95%;
+}
+.projectImagePortrait {
+    margin-left: 10%;
+    width: 80%;
+}
+}
+@media all and (min-width: 1041px) and (max-width: 1300px) {
+.imagesContainer {
+    height: 200px;
+}
+
+}
