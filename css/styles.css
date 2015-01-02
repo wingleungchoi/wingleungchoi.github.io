@@ -162,8 +162,9 @@ nav ul li a:active {
 }
 
 .imageTitle {
-  background-color: #efefef;
-  color: #333;
+  background-color: #141414;
+  color: #fff;
+  font-family: Helvetica, Georgia, sans-serif;
   float: right;
   font-size: 18px;
   height: 80%;
@@ -171,6 +172,7 @@ nav ul li a:active {
   text-align: center;
   transition: margin-top 0.5s ease 0s;
   width: 90%;
+  opacity: 0.9;
 }
 
 .imagesContainer:hover > .imageTitle{
@@ -179,6 +181,10 @@ nav ul li a:active {
 
 .imageTitle:hover{
   margin-top: -140px;
+}
+
+.imageTitle {
+  font-size: 16px;
 }
 
 .tint:hover{
