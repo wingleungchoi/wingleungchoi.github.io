@@ -500,6 +500,14 @@ nav ul li a:active {
     height: 80px;
     width: 60px;
   }  
+
+.imagesContainer:hover > .imageTitle{
+  margin-top: -240px;
+}
+
+.imageTitle:hover{
+  margin-top: -240px;
+}
 }
 
 @media all and (min-width: 711px) and (max-width: 1040px) {
